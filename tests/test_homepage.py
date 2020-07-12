@@ -28,6 +28,16 @@ class TestHomePage(InstantClass):
     def testselection(self):
         print("branching data")
 
+    def testselection2(self):
+        print("new branching data")
+
+    def testselection3(self):
+        print("new branch selection 4")
+
+    def testselection4(self):
+        print("new branch selection 5")
+
+
 
     @pytest.fixture(params=HomePageData.gettestdata("TestCase2"))
     def getData(self, request):
