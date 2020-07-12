@@ -20,6 +20,8 @@ class TestOne(InstantClass):
 
         homePage = HomePage(self.driver)
         log.info("get all the items of mobiles")
+        log.info("getall items of all mobiles")
+        log.info("print all demos")
         checkoutPageObject = homePage.shopItems()
         products = checkoutPageObject.mobileelements()
         for product in products:
