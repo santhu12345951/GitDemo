@@ -25,6 +25,9 @@ class TestHomePage(InstantClass):
         assert "success" in message
         self.driver.refresh()
 
+    def testselection(self):
+        print("branching data")
+
 
     @pytest.fixture(params=HomePageData.gettestdata("TestCase2"))
     def getData(self, request):

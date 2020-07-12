@@ -50,6 +50,9 @@ class TestOne(InstantClass):
         #log.info("Text received from application is "+textMatch)
         assert "Success!" in textMatch
         # driver.get_screenshot_as_file("success.png")
+    def test_newtestforbranch(self):
+        print("log file ")
+
 
 
 
