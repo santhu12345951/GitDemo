@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2f415fb-c171-4388-8b46-60080bfdf5cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_e2e.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_homepage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
