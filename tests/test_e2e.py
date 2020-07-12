@@ -22,6 +22,10 @@ class TestOne(InstantClass):
         log.info("get all the items of mobiles")
         log.info("getall items of all mobiles")
         log.info("print all demos")
+        log.info("values1")
+        log.info("values2")
+        log.info("values3")
+        log.info("values4")
         checkoutPageObject = homePage.shopItems()
         products = checkoutPageObject.mobileelements()
         for product in products:

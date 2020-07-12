@@ -14,6 +14,7 @@ class TestHomePage(InstantClass):
     def testformsubmission(self,getData):
         log = self.getlogger()
         homepage = HomePage(self.driver)
+        log.info("values5")
         log.info("the firstname is"+getData["firstname"])
         homepage.getName().send_keys(getData["firstname"])
         homepage.getEmail().send_keys(getData["lastname"])
